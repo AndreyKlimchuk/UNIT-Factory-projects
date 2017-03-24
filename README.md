@@ -9,7 +9,7 @@ basic C libraries and extend it by your own useful functions in future.
 
 Usage: Compile your project with this library and use functions from it whenever it is need.
 
-------
+
 FILLIT
 ------
 
@@ -21,7 +21,7 @@ their most upper-left position, is acceptable.
 
 Usage: Run program and pass as argument file with valid tetreminos. For example ./fillit test
 
--------------
+
 GET_NEXT_LINE
 -------------
 
@@ -29,7 +29,7 @@ The goal of this project is to write a function that returns a line read from a 
 
 Usage: Use this function whenever you need to read from file or input stream (just pass different file descriptors). You can use this function in a loop until it return 0, it will means that file have been read completely.
 
----------
+
 FT_PRINTF
 ---------
 
@@ -37,7 +37,7 @@ The goal of this project is to recode the libc’s printf function.
 
 Usage: Compile your project with libftprintf.a library and use ft_printf function instead standart printf.
 
----------
+
 PUSH_SWAP
 ---------
 
@@ -98,7 +98,7 @@ Next flags for checker program available:
 
 -c - makes output colored
 
-------
+
 FILLER
 ------
 
@@ -133,7 +133,7 @@ Usage: Run program from folder resors as follow:
 
 Flag -p allows to define player number. Player 2 represented by X and x characters and player 1 by O and o characters.
 
-------
+
 LEM_IN
 ------
 
@@ -168,4 +168,3 @@ Lx-y Lz-w Lr-o ...
 x, z, r represents the ants’ numbers (going from 1 to number_of_ants) and y, w, o represents the rooms’ names.
 
 Usage: ./lem-in ./test_maps/[map's name]
-----------------------------------------------------------------------------------------------------------------------------
