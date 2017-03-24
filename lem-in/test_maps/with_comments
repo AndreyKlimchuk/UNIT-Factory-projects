@@ -1,0 +1,16 @@
+6
+##start
+start 9 4
+#some comment
+a 6 8
+b 8 7
+c 9 1
+##end
+end 0 14
+start-a
+start-b
+#--another-comment--
+a-b
+b-c
+c-end
+a-end

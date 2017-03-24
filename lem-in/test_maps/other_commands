@@ -1,0 +1,14 @@
+5
+b 67 256
+##start
+a 90 165
+##another command
+c 87 345
+abc 781 674
+##end
+end 896 187
+a-b
+a-c
+b-abc
+c-abc
+abc-end

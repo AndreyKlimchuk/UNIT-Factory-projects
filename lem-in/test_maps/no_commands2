@@ -1,0 +1,10 @@
+9
+##start
+a 1 5
+b 0 4
+c 6 7
+d 5 0
+a-b
+b-c
+c-d
+d-b
