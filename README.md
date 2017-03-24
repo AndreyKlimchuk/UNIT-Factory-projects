@@ -1,14 +1,18 @@
 # UNIT-Factory-projects
 Repository for my UNIT Factory projects
 
+-----
 LIBFT
+-----
 
 The goal of this project is to create own library composed of recoded functions from 
 basic C libraries and extend it by your own useful functions in future.
 
 Usage: Compile your project with this library and use functions from it whenever it is need.
 
+------
 FILLIT
+------
 
 The goal of this project is to arrange the Tetriminos (4-blocks geometric figure from tetris) themselves to make the
 smallest possible square, but in some cases, this square may have holes when some given
@@ -18,19 +22,25 @@ their most upper-left position, is acceptable.
 
 Usage: Run program and pass as argument file with valid tetreminos. For example ./fillit test
 
+-------------
 GET_NEXT_LINE
+-------------
 
 The goal of this project is to write a function that returns a line read from a file descriptor. “line” is a succession of characters that end with ’\n’ (ascii code 0x0a) or with End Of File (EOF). The return value can be 1, 0 or -1 depending on whether a line has been read, when the reading has been completed, or if an error has happened respectively. Calling this function in a loop will then allow you to read the text available on a file descriptor one line at a time until the end of the text, no matter the size of either the text or one of its lines.
 
 Usage: Use this function whenever you need to read from file or input stream (just pass different file descriptors). You can use this function in a loop until it return 0, it will means that file have been read completely.
 
+---------
 FT_PRINTF
+---------
 
 The goal of this project is to recode the libc’s printf function.
 
 Usage: Compile your project with libftprintf.a library and use ft_printf function instead standart printf.
 
+---------
 PUSH_SWAP
+---------
 
 The goal of this project is to write 2 programs in C:
 
@@ -89,7 +99,9 @@ Next flags for checker program available:
 
 -c - makes output colored
 
+------
 FILLER
+------
 
 The goal of this project is to create your player to fight other players on the world famous (or infamous) Filler board. The concept is simple: two players gain points by placing on a board, one after the other, the game piece obtained by the game master (in the form of an executable Ruby program). The game ends when the game piece cannot be placed anymore. 
 
@@ -122,7 +134,9 @@ Usage: Run program from folder resors as follow:
 
 Flag -p allows to define player number. Player 2 represented by X and x characters and player 1 by O and o characters.
 
+------
 LEM_IN
+------
 
 The goal of this project is to find the quickest way to get n ants across the farm.
 
@@ -153,3 +167,5 @@ the_links
 Lx-y Lz-w Lr-o ...
 
 x, z, r represents the ants’ numbers (going from 1 to number_of_ants) and y, w, o represents the rooms’ names.
+
+Usage: ./lem-in ./test_maps/[map's name]
