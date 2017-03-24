@@ -74,6 +74,7 @@ rrr : rra and rrb at the same time.
 
 
 
+
 Usage: You can use programs in bash as follow 
 
 ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker $ARG
