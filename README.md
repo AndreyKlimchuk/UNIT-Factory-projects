@@ -33,9 +33,12 @@ Usage: Compile your project with libftprintf.a library and use ft_printf functio
 PUSH_SWAP
 
 The goal of this project is to write 2 programs in C:
+
 • The first, named checker which takes integer arguments and reads instructions on the standard output. Once read, checker executes them and displays OK if integers are sorted. Otherwise, it will display KO.
+
 • The second one called push_swap which calculates and displays on the standard output the smallest progam using Push_swap instruction language that sorts integer arguments received.
 You have at your disposal a set of int values, 2 stacks and a set of instructions to manipulate both stacks.
+
 
 Instructions list
 
@@ -68,6 +71,7 @@ rrb : reverse rotate b - shift down all elements of stack b by 1. The flast elem
 becomes the first one.
 
 rrr : rra and rrb at the same time.
+
 
 
 Usage: You can use programs in bash as follow 
