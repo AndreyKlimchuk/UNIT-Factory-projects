@@ -168,3 +168,28 @@ Lx-y Lz-w Lr-o ...
 x, z, r represents the ants’ numbers (going from 1 to number_of_ants) and y, w, o represents the rooms’ names.
 
 Usage: ./lem-in ./test_maps/[map's name]
+
+COREWAR
+-------
+
+The goal of this project can be broken down into three distinctive parts:
+
+1. Write assembler - program that will compile champions and translate
+them from the language you will write them in (assembly language) into “Bytecode”, 
+which will be directly interpreted by the virtual machine.
+
+2. Write virtual machine - the “arena” in which champions will be executed.
+It should offers various functions, all of which will be useful for the battle of the champions.
+
+3. Write champion - bot written on special assembly language,
+which will fight with other bots on arena (virtual machine).
+
+Bots will fight each other according to corewar rules.
+
+Additionally graphic visualization using ncurses library is implemented
+and available with -v virtual machine option.
+
+Firstly you should compile champions from *.s file to *.cor like that:
+./asm <sourcefile.s>
+And then run virtual machine:
+./corewar [flags] champion1.cor ...
