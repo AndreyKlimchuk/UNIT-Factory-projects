@@ -190,7 +190,9 @@ Additionally graphic visualization using ncurses library is implemented
 and available with -v virtual machine option.
 
 Firstly you should compile champions from *.s file to *.cor like that:
+
 ./asm <sourcefile.s>
 
 And then run virtual machine:
+
 ./corewar [flags] champion1.cor ...
